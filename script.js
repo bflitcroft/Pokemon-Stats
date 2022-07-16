@@ -100,7 +100,7 @@ function guess(poke){
   }
   else{
     i=0;
-    while (pokemoN[i]!=poke){
+    while (pokemoN[i]!=' ' + poke){
       i+=1;
     }
     if (i<151){
