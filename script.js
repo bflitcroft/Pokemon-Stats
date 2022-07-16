@@ -127,6 +127,7 @@ function guess(poke){
     if (826<i){
       gen2=8;
     }
+    choosegen()
     if (gen2==gen){     document.getElementById("message").innerHTML='Try Again...Same Generation';
   }
     if (gen2>gen){ document.getElementById("message").innerHTML='Try Again...Its from an older Generation';
