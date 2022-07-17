@@ -1,3 +1,5 @@
+
+
 var x, y, pokemon, pokemoN, pokemoN2, hp, atk, df, spa, sdf, spd, p, i,gen, poke,hp1,atk1,df1,spa1,sdf1,spd1,gen2;
 x=(Math.random())
 console.log(x)
@@ -106,22 +108,22 @@ function guess(poke){
     if (i<151){
       gen2=1;
     }
-    if (150<i) and (i<251){
+    if ((150<i) && (i<251));{
       gen2=2;
     }
-    if (250<i) and (i<386){
+    if ((250<i) && (i<386));{
       gen2=3;
     }  
-    if (385<i) and (i<494){
+    if ((385<i) && (i<494));{
       gen2=4;
     }  
-    if (493<) and (i<649){
+    if ((493<i) && (i<649));{
       gen2=5;
     }  
-    if (648<i) and (i<721){
+    if ((648<i) && (i<721));{
       gen2=6;
     }
-    if (720<i) and (i<827){
+    if ((720<i) && (i<827));{
       gen2=7;
     }
     if (826<i){
